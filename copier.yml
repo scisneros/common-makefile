@@ -5,4 +5,4 @@ makefile:
           - Core: core
           - Variant: variant
 
-_subdirectory: {{ makefile }}
+_subdirectory: "{{ makefile }}"

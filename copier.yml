@@ -1,8 +1,8 @@
-_subdirectory: {{ makefile }}
-
 makefile:
   type: str
   help: Makefile flavour
   choices:
           - Core: core
           - Variant: variant
+
+_subdirectory: {{ makefile }}
